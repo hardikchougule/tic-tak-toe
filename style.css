@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-color:rgb(28, 25, 25);
+}
+.changecl{
+    margin: 3vh;
+    border: 2px solid rgb(133, 237, 255);
+    width: 5vh;
+    height: 5vh;
+    background-color:whitesmoke;
+    border-radius: 50%;
+    position: absolute;
+}
+.game_heading {
+    font-size: 6.5vh;
+    color: rgb(49, 135, 210);
+    margin-bottom: 5px;
+}
+
+.container {
+    padding-top: 20px;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.main_con {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.2rem;
+}
+
+.box {
+    display: flex;
+    color: rgb(255, 240, 240);
+    justify-content: center;
+    align-items: center ;
+    font-size: 3rem;
+    height: 18vmin;
+    width: 18vmin;
+    background-color: aqua;
+    border-radius: 9px;
+    border: 1.5px rgb(240, 240, 240) solid;
+}
+
+.box:hover{
+    border: 3px rgb(255, 0, 0) solid;
+}
+
+#btn {
+    margin-top: 10px;
+    color: aliceblue;
+    border-radius: 4px;
+    width: 55px;
+    background-color: rgb(97, 97, 97);
+
+}
+
+#main_win {
+    background-color: transparent;
+    height: 80%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.win {
+    border:2px black solid;
+    margin-right: 4vh;
+    border-radius: 10px;
+    height: 30vmin;
+    width: 70vmin;
+    position: absolute;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(255, 255, 255,0.95);
+    
+}
+
+.winti {
+    color: rgb(238, 37, 37);;
+    background-color: transparent;
+    font-size: 7vmin;
+}
+
+#winid {
+    color: rgb(49, 135, 210);;
+    background-color: transparent;
+    font-size: 13.5vmin;  
+}
+
+#btn2 {
+    border-radius: 5px;
+    border-color: aqua;
+    background-color: transparent;
+    width: 20vmin;
+
+}
